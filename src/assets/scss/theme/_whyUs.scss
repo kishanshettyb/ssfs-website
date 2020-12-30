@@ -1,0 +1,83 @@
+.circle-rotate {
+  img {
+    -webkit-animation-name: rotateMe;
+    animation-name: rotateMe;
+    -webkit-animation-duration: 35s;
+    animation-duration: 35s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+  }
+
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes rotateMe {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(1turn);
+  }
+}
+
+.why-us-img {
+  position: relative;
+  z-index: 11;
+}
+
+.bar {
+  height: 5px;
+  width: 90px;
+  background: #79f1a457;
+  margin: 20px 0 25px;
+  position: relative;
+  border-radius: 30px;
+
+}
+
+.bar:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -2.7px;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background: #79F1A4;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: MOVE-BG;
+  animation-name: MOVE-BG;
+}
+
+@-webkit-keyframes 
+  MOVE-BG {
+    0% {
+      transform: translateX(0)
+    }
+
+    to {
+      transform: translateX(88px)
+    }
+  }
+  @keyframes MOVE-BG {
+    0% {
+      transform: translateX(0)
+    }
+
+    to {
+      transform: translateX(88px)
+    }
+  }
