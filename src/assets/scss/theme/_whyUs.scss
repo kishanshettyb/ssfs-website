@@ -10,12 +10,19 @@
     animation-timing-function: linear;
   }
 
-  z-index: 1;
   position: absolute;
+  left: 0;
   top: 50%;
-  left: 60%;
-  width: 100%;
-  transform: translate(-50%, -50%);
+  transform: translateY(-50%);
+  z-index: -1;
+  right: 0;
+  margin: 0 auto;
+
+  @media (max-width: 767.98px) {
+    .circle-img {
+      display: none;
+    }
+  }
 }
 
 @keyframes rotateMe {
@@ -62,22 +69,58 @@
   animation-name: MOVE-BG;
 }
 
-@-webkit-keyframes 
-  MOVE-BG {
-    0% {
-      transform: translateX(0)
+@-webkit-keyframes MOVE-BG {
+  0% {
+    transform: translateX(0)
+  }
+
+  to {
+    transform: translateX(88px)
+  }
+}
+
+@keyframes MOVE-BG {
+  0% {
+    transform: translateX(0)
+  }
+
+  to {
+    transform: translateX(88px)
+  }
+}
+
+.why-us-key-points {
+  margin: 40px 0 0 0;
+  padding: 0;
+
+  li {
+    list-style: none;
+    padding-bottom: 20px;
+
+    .div:hover {
+      box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
     }
 
-    to {
-      transform: translateX(88px)
-    }
-  }
-  @keyframes MOVE-BG {
-    0% {
-      transform: translateX(0)
+
+
+    .div {
+      display: flex;
+      padding: 10px;
+      background-color: #f1f1f14f;
+      border-radius: 10px;
+
+
+      p {
+        margin-bottom: 0;
+        line-height: 1.5;
+      }
     }
 
-    to {
-      transform: translateX(88px)
+    img {
+      height: 60px;
+      margin-right: 30px;
     }
+
+
   }
+}

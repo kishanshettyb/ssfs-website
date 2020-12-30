@@ -11,6 +11,7 @@ export default function theme() {
 		<div>
 			<Header />
 			<Slider />
+			<SliderCard />
 			<WhyUs />
 			<div>
 				<br />
