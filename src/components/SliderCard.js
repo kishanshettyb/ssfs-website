@@ -1,6 +1,7 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import { Home } from "react-feather";
+
+// images
 import garden from "../assets/icons/growth.svg";
 import housekeeping from "../assets/icons/household.svg";
 import plumbing from "../assets/icons/pipeline.svg";

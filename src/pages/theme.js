@@ -5,6 +5,7 @@ import SliderCard from "../components/SliderCard";
 
 import "../assets/scss/theme.scss";
 import WhyUs from "../components/WhyUs";
+import RegisterSection from "../components/RegisterSection";
 
 export default function theme() {
 	return (
@@ -13,6 +14,7 @@ export default function theme() {
 			<Slider />
 			<SliderCard />
 			<WhyUs />
+			<RegisterSection />
 			<div>
 				<br />
 				<br />
