@@ -1,13 +1,26 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import circle from "../assets/img/circle.png";
-import whyus from "../assets/img/img-1.png";
 import proffesional from "../assets/icons/professional.svg";
 import support from "../assets/icons/support.svg";
 import service from "../assets/icons/customer-service.svg";
 import maintenance from "../assets/icons/maintenance.svg";
+import { graphql, useStaticQuery } from "gatsby";
+import Img from "gatsby-image";
 
-export default function WhyUs() {
+const WhyUs = () => {
+	const data = useStaticQuery(graphql`
+		query MyQuery {
+			image: file(relativePath: { eq: "img-1.png" }) {
+				id
+				childImageSharp {
+					fluid {
+						...GatsbyImageSharpFluid
+					}
+				}
+			}
+		}
+	`);
 	return (
 		<section className="section-padding">
 			<Container>
@@ -21,7 +34,6 @@ export default function WhyUs() {
 							than 16 years of experience in various disciplines of other
 							facility services.
 						</p>
-
 						<ul className="why-us-key-points">
 							<li>
 								<div className="div  align-items-center ">
@@ -82,7 +94,7 @@ export default function WhyUs() {
 						</ul>
 					</Col>
 					<Col md={12} lg={6}>
-						<img className="img-fluid why-us-img" src={whyus} alt="SSFS" />
+						<Img fluid={data.image.childImageSharp.fluid} />
 						<div className="circle-rotate text-center">
 							<img className="img-fluid circle-img" src={circle} alt="SSFS" />
 						</div>
@@ -91,4 +103,5 @@ export default function WhyUs() {
 			</Container>
 		</section>
 	);
-}
+};
+export default WhyUs;

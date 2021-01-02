@@ -24,6 +24,12 @@ module.exports = {
 		"gatsby-plugin-mdx",
 		"gatsby-transformer-sharp",
 		{
+			resolve: `gatsby-remark-images-native-lazy-load`,
+			options: {
+				loading: "lazy", // "lazy" | "eager" | "auto"
+			},
+		},
+		{
 			resolve: "gatsby-source-filesystem",
 			options: {
 				name: "images",
