@@ -1,30 +1,47 @@
-.title{
+.title {
   font-family: 'Open Sans', sans-serif;
   font-size: 1.3rem;
-  @media (min-width: 576px) {  font-size: 1.3rem; }
+
+  @media (min-width: 576px) {
+    font-size: 1.3rem;
+  }
 
   // Medium devices (tablets, 768px and up)
-  @media (min-width: 768px) { font-size: 1.5rem;  }
-  
+  @media (min-width: 768px) {
+    font-size: 1.5rem;
+  }
+
   // Large devices (desktops, 992px and up)
-  @media (min-width: 992px) { font-size: 1.7rem;  }
-  
+  @media (min-width: 992px) {
+    font-size: 1.7rem;
+  }
+
   // Extra large devices (large desktops, 1200px and up)
-  @media (min-width: 1200px) {font-size: 2rem;  }
+  @media (min-width: 1200px) {
+    font-size: 2rem;
+  }
 }
 
-.small-title{
+.small-title {
   font-family: 'Poppins', sans-serif;
   font-size: 1rem;
-  font-weight: 600;
-  @media (min-width: 576px) {  font-size: 1rem; }
+
+  @media (min-width: 576px) {
+    font-size: 1rem;
+  }
 
   // Medium devices (tablets, 768px and up)
-  @media (min-width: 768px) { font-size: 1.25rem;  }
-  
+  @media (min-width: 768px) {
+    font-size: 1.25rem;
+  }
+
   // Large devices (desktops, 992px and up)
-  @media (min-width: 992px) { font-size: 1,25rem;  }
-  
+  @media (min-width: 992px) {
+    font-size: 1, 25rem;
+  }
+
   // Extra large devices (large desktops, 1200px and up)
-  @media (min-width: 1200px) {font-size: 1.25rem;  }
+  @media (min-width: 1200px) {
+    font-size: 1.25rem;
+  }
 }

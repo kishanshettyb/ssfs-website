@@ -6732,6 +6732,14 @@ gatsby-recipes@^0.6.1:
     xstate "^4.9.1"
     yoga-layout-prebuilt "^1.9.6"
 
+gatsby-remark-images-native-lazy-load@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/gatsby-remark-images-native-lazy-load/-/gatsby-remark-images-native-lazy-load-1.0.0.tgz#a541e9f8024c66a3e06085769d677f69182f3242"
+  integrity sha512-M6qRqvmwsn+wXznJeuX2TNdGhF6+LJR5wqEV5HcEa0RnsmJVxlZu2Zp1RKxbzHSFHowhhh6Hpsqni7pDja6PWQ==
+  dependencies:
+    chalk "^3.0.0"
+    unist-util-visit "^2.0.1"
+
 gatsby-source-filesystem@^2.8.1:
   version "2.8.1"
   resolved "https://registry.npmjs.org/gatsby-source-filesystem/-/gatsby-source-filesystem-2.8.1.tgz"
@@ -14743,7 +14751,7 @@ unist-util-visit-parents@^3.0.0:
     "@types/unist" "^2.0.0"
     unist-util-is "^4.0.0"
 
-unist-util-visit@2.0.3, unist-util-visit@^2.0.0, unist-util-visit@^2.0.2:
+unist-util-visit@2.0.3, unist-util-visit@^2.0.0, unist-util-visit@^2.0.1, unist-util-visit@^2.0.2:
   version "2.0.3"
   resolved "https://registry.npmjs.org/unist-util-visit/-/unist-util-visit-2.0.3.tgz"
   integrity sha512-iJ4/RczbJMkD0712mGktuGpm/U4By4FfDonL7N/9tATGIF4imikjOuagyMY53tnZq3NP6BcmlrHhEKAfGWjh7Q==

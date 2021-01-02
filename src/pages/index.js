@@ -1,20 +1,61 @@
-import * as React from "react";
-import { Link } from "gatsby";
+import React from "react";
+import Header from "../components/Header";
+import Slider from "../components/Slider";
+import SliderCard from "../components/SliderCard";
+import { Helmet } from "react-helmet";
+import "../assets/scss/theme.scss";
+import WhyUs from "../components/WhyUs";
+import RegisterSection from "../components/RegisterSection";
+import ServiceSection from "../components/ServiceSection";
 
-// markup
-const IndexPage = () => {
+const servicelist = [
+	{
+		id: "1",
+		image: "bg-1.jpg",
+		title: "title one",
+		desc: "desc one",
+	},
+	{
+		id: "2",
+		image: "bg-2.jpg",
+		title: "title two",
+		desc: "desc two",
+	},
+	{
+		id: "3",
+		image: "bg-2.jpg",
+		title: "title two",
+		desc: "desc two",
+	},
+	{
+		id: "4",
+		image: "bg-2.jpg",
+		title: "title two",
+		desc: "desc two",
+	},
+];
+
+const Theme = () => {
 	return (
 		<div>
-			Hello
-			<div>
-				<Link to="/theme/">Themes</Link>
-				<i data-feather="circle"></i>
-				<i data-feather="eye"></i>
-				<i data-feather="heart"></i>
-				<i data-feather="feather"></i>
-			</div>
+			<Helmet>
+				<meta charSet="utf-8" />
+				<title>My Title</title>
+				<link rel="canonical" href="http://mysite.com/example" />
+			</Helmet>
+			<Header />
+
+			<Slider />
+			<SliderCard />
+			<WhyUs />
+			<ServiceSection
+				title="Plumbing Services in Banglore"
+				tagline="Residential Plumbing Professionals Repair"
+				services={servicelist}
+			/>
+			<RegisterSection />
 		</div>
 	);
 };
 
-export default IndexPage;
+export default Theme;
