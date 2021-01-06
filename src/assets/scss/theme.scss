@@ -9,3 +9,10 @@
 @import "../scss/theme/service_section";
 @import "../scss/theme/small_banner";
 @import "../scss/theme/section_heading";
+@import "../scss/theme/footer";
+
+body {
+  a {
+    text-decoration: none !important;
+  }
+}

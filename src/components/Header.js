@@ -2,7 +2,6 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Navbar, Nav, NavDropdown, Container } from "react-bootstrap";
 import { LogIn } from "react-feather";
-import logo from "../assets/img/logo.png";
 import SideBar from "../components/SideBar";
 import { graphql, useStaticQuery } from "gatsby";
 import Img from "gatsby-image";
@@ -26,7 +25,6 @@ export default function Header() {
 			<Navbar fixed="top" bg="transparent" expand="lg">
 				<Container>
 					<Navbar.Brand href="/">
-						{/* <img className="logo-img" src={logo} alt="Third slide" /> */}
 						<Img
 							className="logo-img"
 							fixed={data.image.childImageSharp.fixed}
