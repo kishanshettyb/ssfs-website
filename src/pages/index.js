@@ -7,7 +7,6 @@ import "../assets/scss/theme.scss";
 import WhyUs from "../components/WhyUs";
 import RegisterSection from "../components/RegisterSection";
 import ServiceSection from "../components/ServiceSection";
-import { Link } from "gatsby";
 import Footer from "../components/Footer";
 const servicelist = [
 	{
@@ -54,7 +53,13 @@ const Theme = () => {
 				tagline="Residential Plumbing Professionals Repair"
 				services={servicelist}
 			/>
-			<RegisterSection />
+			<RegisterSection
+				title="Register As A Professional in minutes."
+				tagline="Get Your SSFS Acount Today!"
+				btnName="Get Your Account"
+				link="registration"
+				background="linear-gradient(135deg, #79F1A4 10%, #0E5CAD 100%)"
+			/>
 			<Footer />
 		</div>
 	);

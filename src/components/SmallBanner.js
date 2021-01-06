@@ -9,7 +9,7 @@ const SmallBanner = (props) => {
 			query {
 				desktop: file(relativePath: { eq: "bg-1.jpg" }) {
 					childImageSharp {
-						fluid(quality: 90, maxWidth: 1920) {
+						fluid(quality: 90) {
 							...GatsbyImageSharpFluid_withWebp
 						}
 					}

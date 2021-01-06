@@ -1,0 +1,23 @@
+.client-area {
+  text-align: center;
+  position: relative;
+  margin-top: -80px;
+  background: transparent;
+  z-index: 1;
+}
+
+.client-inner {
+  background: #fff;
+  border-radius: 3px;
+  text-align: center;
+  padding: 30px;
+  margin-bottom: 100px
+}
+
+.clients-card {
+
+  .client-logos {
+    width: 100%;
+    height: auto;
+  }
+}

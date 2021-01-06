@@ -19,11 +19,11 @@ const Footer = () => {
 		}
 	`);
 	return (
-		<section class="footer-section">
+		<section className="footer-section">
 			<Container>
 				<Row>
 					<Col md={4}>
-						<div class="d-flex pb-3 logo-div align-items-center">
+						<div className="d-flex pb-3 logo-div align-items-center">
 							<div>
 								<Img fixed={data.image.childImageSharp.fixed} />
 							</div>
