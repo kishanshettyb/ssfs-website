@@ -1,0 +1,46 @@
+.btn-icon {
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+}
+
+.download-btns-row {
+  padding: 10px 20px;
+  width: max-content;
+  border-radius: 5px;
+
+  p {
+    margin-bottom: 0px;
+    color: #fff;
+    font-size: 12px;
+    font-family: $font-popins;
+  }
+
+  h3 {
+    color: #fff;
+    font-size: 1rem;
+    font-family: $font-popins;
+  }
+}
+
+.bg-green {
+  background-image: linear-gradient(135deg, #79F1A4 10%, #0E5CAD 100%);
+}
+
+.bg-red {
+  background-image: linear-gradient(90deg, #ee0979, #ff6a00);
+}
+
+.mobile-phone {
+  width: auto;
+  height: 400px;
+
+}
+
+.first-mobile {
+  transform: rotate(-15deg);
+}
+
+.second-mobile {
+  transform: rotate(15deg);
+}
