@@ -1,0 +1,22 @@
+.small-banner {
+  background-color: #0e314c;
+  background-position: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 200px;
+  padding-bottom: 120px;
+  background: rgba(0, 0, 0, 0.6);
+  opacity: 1 !important;
+
+  h2 {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: $white;
+  }
+
+  p {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: $white;
+  }
+}
