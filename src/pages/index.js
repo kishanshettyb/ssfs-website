@@ -7,7 +7,7 @@ import "../assets/scss/theme.scss";
 import WhyUs from "../components/WhyUs";
 import RegisterSection from "../components/RegisterSection";
 import ServiceSection from "../components/ServiceSection";
-
+import { Link } from "gatsby";
 const servicelist = [
 	{
 		id: "1",
@@ -54,6 +54,9 @@ const Theme = () => {
 				services={servicelist}
 			/>
 			<RegisterSection />
+			<div>
+				<Link to="/about/">about</Link>
+			</div>
 		</div>
 	);
 };
