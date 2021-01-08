@@ -1,0 +1,47 @@
+.address-ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  p {
+    font-size: 14px;
+    margin-bottom: 0px;
+  }
+
+  h2 {
+    font-family: $font-popins;
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+  }
+
+  li {
+    padding-bottom: 30px;
+  }
+
+  .icons {
+    width: 25px;
+    height: 25px;
+    color: #fff;
+
+  }
+
+  .icon-circle {
+    padding: 18px 19px;
+    background-image: linear-gradient(90deg, #ee0979, #ff6a00);
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 20px;
+    position: relative;
+
+    &::after {
+      content: '';
+      position: absolute;
+      top: -7px;
+      left: -7px;
+      right: -7px;
+      bottom: -7px;
+      border: red 2px dotted;
+      border-radius: 50%;
+    }
+  }
+}
