@@ -6,7 +6,7 @@ import apple from "../assets/icons/apple-brands.svg";
 import { graphql, useStaticQuery } from "gatsby";
 import Img from "gatsby-image";
 
-export default function AppSection() {
+const AppSection = () => {
 	const data = useStaticQuery(graphql`
 		query AppQuery {
 			image: file(relativePath: { eq: "mobile-app.png" }) {
@@ -96,4 +96,6 @@ export default function AppSection() {
 			</Container>
 		</section>
 	);
-}
+};
+
+export default AppSection;
