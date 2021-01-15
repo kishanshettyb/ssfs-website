@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Carousel } from "react-bootstrap";
+import { Carousel, Button } from "react-bootstrap";
 import { graphql, useStaticQuery } from "gatsby";
 import Img from "gatsby-image";
+import { Link } from "gatsby";
 
 const Slider = () => {
 	const [index, setIndex] = useState(0);
@@ -16,7 +17,8 @@ const Slider = () => {
 				nodes {
 					id
 					childImageSharp {
-						fluid(maxWidth: 3200) {
+						fluid(quality: 100) {
+							originalName
 							...GatsbyImageSharpFluid_withWebp
 						}
 					}
@@ -25,7 +27,11 @@ const Slider = () => {
 		}
 	`);
 	return (
-		<Carousel activeIndex={index} onSelect={handleSelect}>
+		<Carousel
+			className="slider-carousel"
+			activeIndex={index}
+			onSelect={handleSelect}
+		>
 			{data.images.nodes.map((image) => (
 				<Carousel.Item>
 					<div className="image">
@@ -36,26 +42,39 @@ const Slider = () => {
 							className="d-block w-100 slider-image"
 						/>
 					</div>
+					<div
+						className={
+							image.childImageSharp.fluid.originalName == "plumbing.webp" ||
+							image.childImageSharp.fluid.originalName == "homekeeping.webp"
+								? "leftbanner slider-content"
+								: "rightbanner slider-content"
+						}
+					>
+						<h1 className="title">
+							{image.childImageSharp.fluid.originalName == "plumbing.webp"
+								? "	Best Plumbing Service in Banglore"
+								: image.childImageSharp.fluid.originalName == "homekeeping.webp"
+								? "Best House keeping service in Banglore"
+								: image.childImageSharp.fluid.originalName == "cleaning.png"
+								? "Professional cleaning service"
+								: "Home service on demand"}
+						</h1>
+						<p>
+							{image.childImageSharp.fluid.originalName == "plumbing.webp"
+								? "	Best Plumbing Service in Banglore"
+								: image.childImageSharp.fluid.originalName == "homekeeping.webp"
+								? "Best House keeping service in Banglore"
+								: image.childImageSharp.fluid.originalName == "cleaning.png"
+								? "Professional cleaning service"
+								: "Home service on demand"}
+						</p>
+						<Link to="/">
+							<Button variant="outline-light">Read More</Button>
+						</Link>
+					</div>
 				</Carousel.Item>
 			))}
 		</Carousel>
-		// <Carousel>
-		// 	<Carousel.Item interval={2500}>
-		// 		<div className="image">
-		// 			<img className="d-block w-100" src={sliderOne} alt="First slide" />
-		// 		</div>
-		// 	</Carousel.Item>
-		// 	<Carousel.Item>
-		// 		<div className="image">
-		// 			<img className="d-block w-100" src={sliderOne} alt="Third slide" />
-		// 		</div>
-		// 	</Carousel.Item>
-		// 	<Carousel.Item>
-		// 		<div className="image">
-		// 			<img className="d-block w-100" src={sliderOne} alt="Third slide" />
-		// 		</div>
-		// 	</Carousel.Item>
-		// </Carousel>
 	);
 };
 export default Slider;

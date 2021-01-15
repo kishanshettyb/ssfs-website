@@ -13,41 +13,43 @@ export default function SliderCard() {
 	return (
 		<Container className="slider-card shadow-lg br-10">
 			<Row>
-				<Col md={4} className="services text-center pb-3">
+				<Col xs={6} md={4} className="services text-center pb-3">
 					<div className="service-icon">
 						<img src={housekeeping} alt="Gadening" />
 					</div>
-					<h5>Housekeeping</h5>
+					<h2 className="small-title text-center pt-2">Housekeeping</h2>
 				</Col>
-				<Col md={4} className="services pb-3">
+				<Col xs={6} md={4} className="services pb-3">
 					<div className="service-icon">
 						<img src={garden} alt="Gardening" />
 					</div>
-					<h5>Gardening</h5>
+					<h2 className="small-title text-center pt-2">Gardening</h2>
 				</Col>
-				<Col md={4} className="services pb-3">
+				<Col xs={6} md={4} className="services pb-3">
 					<div className="service-icon">
 						<img src={plumbing} alt="Plumbing" />
 					</div>
-					<h5>Plumbing</h5>
+					<h2 className="small-title text-center pt-2">Plumbing</h2>
 				</Col>
-				<Col md={4} className="services">
+				<Col xs={6} md={4} className="services">
 					<div className="service-icon">
 						<img src={electrician} alt="Electricians" />
 					</div>
-					<h5>Electricians</h5>
+					<h2 className="small-title text-center pt-2">Electricians</h2>
 				</Col>
-				<Col md={4} className="services">
+				<Col xs={6} md={4} className="services">
 					<div className="service-icon">
 						<img src={manpower} alt="Manpower" />
 					</div>
-					<h5>Manpower</h5>
+					<h2 className="small-title text-center pt-2">Manpower</h2>
 				</Col>
-				<Col md={4} className="services">
+				<Col xs={6} md={4} className="services">
 					<div className="service-icon">
 						<img src={tank} alt="STP/Sump Tank Cleaning" />
 					</div>
-					<h5>STP/Sump Tank Cleaning</h5>
+					<h2 className="small-title text-center pt-2">
+						STP/Sump Tank Cleaning
+					</h2>
 				</Col>
 			</Row>
 		</Container>
