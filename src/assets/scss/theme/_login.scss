@@ -1,0 +1,79 @@
+// $bg-img: url('../../icons/facebook-f-brands.svg');
+.login-content {
+  a {
+    color: #e83e8c;
+  }
+}
+
+.vh-100 {
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+.login-logo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -80px;
+
+  .logo {
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    margin-top: -10px;
+  }
+}
+
+.light-text {
+  color: #6c757d;
+  font-size: 14px;
+}
+
+.login-content {
+  margin: 0 100px;
+}
+
+.facebook-btn {
+  color: #4267B2;
+  border-color: #4267B2;
+
+  &:hover {
+    color: #fff;
+    background-color: #4267B2;
+    border-color: #4267B2;
+
+    .whiteIcon {
+      display: block;
+    }
+  }
+}
+
+.whiteIcon {
+  display: none;
+}
+
+.google-btn {
+  color: #DB4437;
+  border-color: #DB4437;
+
+  &:hover {
+    color: #fff;
+    background-color: #DB4437;
+    border-color: #DB4437;
+
+    .whiteIcon {
+      display: block;
+    }
+  }
+
+
+
+}
+
+.btn-icon {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 40px;
+}

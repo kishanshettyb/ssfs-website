@@ -56,6 +56,9 @@ export default function Header() {
 							<Nav.Link as={Link} to="/contact/">
 								Contact
 							</Nav.Link>
+							<Nav.Link target="_bank" href="https://google.co.in">
+								Blog
+							</Nav.Link>
 							<Nav.Link as={Link} to="/login/">
 								<LogIn className="login-icon" />
 								Log In
