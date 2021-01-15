@@ -1,0 +1,23 @@
+// Buttons
+.btn {
+  height: 50px;
+
+  &:focus {
+    box-shadow: none;
+    border: none;
+  }
+}
+
+// Forms
+.form-control {
+  height: 50px;
+
+  &:focus {
+    box-shadow: none;
+    border-color: #495057;
+  }
+}
+
+.input-group-text {
+  background-color: #e9ecef3d;
+}
