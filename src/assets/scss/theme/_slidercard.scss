@@ -6,23 +6,28 @@
   padding-top: $big;
   padding-bottom: $big;
   margin-top: -150px;
-  z-index: 11111;
+  z-index: 1;
   position: relative;
-  .services:not(:last-child){
+
+  .services:not(:last-child) {
     border-right: 1px solid #ddd;
   }
-  h5{
+
+  h5 {
     text-align: center;
     padding-top: $small;
     padding-bottom: $small;
   }
-  .service-icon{
+
+  .service-icon {
     width: 60px;
     height: 60px;
     margin: auto;
   }
-    svg,img{
-      width: 100%;
-      height: 100%;
+
+  svg,
+  img {
+    width: 100%;
+    height: 100%;
   }
 }
