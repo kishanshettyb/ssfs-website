@@ -1,5 +1,3 @@
-require("dotenv").config();
-
 module.exports = {
 	siteMetadata: {
 		title: "My Gatsby Site",

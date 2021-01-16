@@ -15,6 +15,7 @@ export default class Header extends Component {
 	componentDidMount() {
 		document.addEventListener("scroll", () => {
 			// const user = this.context;
+
 			if (typeof window !== `undefined`) {
 				const isTop = window.scrollY < 200;
 				if (isTop !== this.state.isTop) {
