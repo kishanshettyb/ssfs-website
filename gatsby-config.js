@@ -3,6 +3,7 @@ require("dotenv").config();
 module.exports = {
 	siteMetadata: {
 		title: "My Gatsby Site",
+		siteUrl: "http://smartsolutionfacilityservice.com/",
 	},
 	plugins: [
 		"gatsby-plugin-sass",
@@ -65,21 +66,6 @@ module.exports = {
 				color: `tomato`,
 				// Disable the loading spinner.
 				showSpinner: true,
-			},
-		},
-		{
-			resolve: `gatsby-plugin-firebase`,
-			options: {
-				credentials: {
-					apiKey: process.env.apiKey,
-					authDomain: process.env.authDomain,
-					databaseURL: process.env.databaseURL,
-					projectId: process.env.projectId,
-					storageBucket: process.env.storageBucket,
-					messagingSenderId: process.env.messagingSenderId,
-					appId: process.env.appId,
-					measurementId: process.env.measurementId,
-				},
 			},
 		},
 	],
