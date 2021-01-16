@@ -1,11 +1,10 @@
 import React, { Component } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Navbar, Nav, NavDropdown, Container, Button } from "react-bootstrap";
+import { Navbar, Nav, NavDropdown, Container } from "react-bootstrap";
 import { LogIn } from "react-feather";
 import SideBar from "../components/SideBar";
 import { Link } from "gatsby";
 import Logo from "../assets/img/logo.png";
-import firebase from "firebase";
 
 export default class Header extends Component {
 	state = {
@@ -15,14 +14,13 @@ export default class Header extends Component {
 
 	componentDidMount() {
 		document.addEventListener("scroll", () => {
-			const isTop = window.scrollY < 200;
-			if (isTop !== this.state.isTop) {
-				this.setState({ isTop });
+			// const user = this.context;
+			if (typeof window !== `undefined`) {
+				const isTop = window.scrollY < 200;
+				if (isTop !== this.state.isTop) {
+					this.setState({ isTop });
+				}
 			}
-		});
-		firebase.auth().onAuthStateChanged((user) => {
-			this.setState({ isSignedIn: !!user });
-			console.log("user", user);
 		});
 	}
 
@@ -67,7 +65,7 @@ export default class Header extends Component {
 								<Nav.Link target="_bank" href="https://google.co.in">
 									Blog
 								</Nav.Link>
-								{this.state.isSignedIn ? (
+								{/* {this.state.isSignedIn ? (
 									<NavDropdown
 										title={firebase.auth().currentUser.displayName}
 										id="basic-nav-dropdown"
@@ -98,7 +96,11 @@ export default class Header extends Component {
 										<LogIn className="login-icon" />
 										Log In
 									</Nav.Link>
-								)}
+								)} */}
+								<Nav.Link as={Link} to="/login/">
+									<LogIn className="login-icon" />
+									Log In
+								</Nav.Link>
 							</Nav>
 						</Navbar.Collapse>
 					</Container>
