@@ -24,10 +24,10 @@ const contact = () => {
 				/>
 				<Container className="pt-5">
 					<Row className="pt-3">
-						<Col md={4}>
+						<Col xs={12} sm={12} md={5}>
 							<AddressIcons />
 						</Col>
-						<Col md={8}>
+						<Col xs={12} sm={12} md={7}>
 							<Form>
 								<Row>
 									<Col md={6}>
@@ -63,7 +63,7 @@ const contact = () => {
 									</Col>
 
 									<Col md={12}>
-										<Button size="lg" variant="primary" type="submit">
+										<Button size="lg" variant="dark" type="submit">
 											Send Message
 										</Button>
 									</Col>

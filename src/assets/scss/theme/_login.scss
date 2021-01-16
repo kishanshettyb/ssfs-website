@@ -3,6 +3,13 @@
   a {
     color: #e83e8c;
   }
+
+  .btn-icon {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 40px;
+  }
 }
 
 .vh-100 {
@@ -69,11 +76,4 @@
 
 
 
-}
-
-.btn-icon {
-  width: 20px;
-  height: 20px;
-  position: absolute;
-  left: 40px;
 }

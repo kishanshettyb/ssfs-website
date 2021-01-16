@@ -79,3 +79,19 @@ nav {
 .bg-dark {
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175) !important;
 }
+
+// .dropdown {
+//   &:hover {
+//     .dropdown-menu {
+//       display: block !important;
+//       margin-top: 0 !important; // remove the gap so it doesn't close
+//     }
+//   }
+// }
+
+.avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
