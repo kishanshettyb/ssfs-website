@@ -44,27 +44,29 @@ const Slider = () => {
 					</div>
 					<div
 						className={
-							image.childImageSharp.fluid.originalName == "plumbing.webp" ||
-							image.childImageSharp.fluid.originalName == "homekeeping.webp"
+							image.childImageSharp.fluid.originalName === "plumbing.webp" ||
+							image.childImageSharp.fluid.originalName === "homekeeping.webp"
 								? "leftbanner slider-content"
 								: "rightbanner slider-content"
 						}
 					>
 						<h1 className="title">
-							{image.childImageSharp.fluid.originalName == "plumbing.webp"
+							{image.childImageSharp.fluid.originalName === "plumbing.webp"
 								? "	Best Plumbing Service in Banglore"
-								: image.childImageSharp.fluid.originalName == "homekeeping.webp"
+								: image.childImageSharp.fluid.originalName ===
+								  "homekeeping.webp"
 								? "Best House keeping service in Banglore"
-								: image.childImageSharp.fluid.originalName == "cleaning.png"
+								: image.childImageSharp.fluid.originalName === "cleaning.png"
 								? "Professional cleaning service"
 								: "Home service on demand"}
 						</h1>
 						<p>
-							{image.childImageSharp.fluid.originalName == "plumbing.webp"
+							{image.childImageSharp.fluid.originalName === "plumbing.webp"
 								? "	Best Plumbing Service in Banglore"
-								: image.childImageSharp.fluid.originalName == "homekeeping.webp"
+								: image.childImageSharp.fluid.originalName ===
+								  "homekeeping.webp"
 								? "Best House keeping service in Banglore"
-								: image.childImageSharp.fluid.originalName == "cleaning.png"
+								: image.childImageSharp.fluid.originalName === "cleaning.png"
 								? "Professional cleaning service"
 								: "Home service on demand"}
 						</p>
