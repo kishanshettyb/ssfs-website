@@ -15,7 +15,7 @@ import GoogleIcon from "../assets/icons/google-brands.svg";
 import GoogleIconWhite from "../assets/icons/google-brands-white.svg";
 import FacebookIcon from "../assets/icons/facebook-f-brands.svg";
 import FacebookIconWhite from "../assets/icons/facebook-f-brands-white.svg";
-import LoginImg from "../images/logo.png";
+import Logo from "../images/logo.png";
 import React, { Component } from "react";
 import firebase from "firebase";
 
@@ -161,41 +161,11 @@ export default class login extends Component {
 							{this.state.isSignedIn ? (
 								navigate("/")
 							) : (
-								// <button onClick={() => firebase.auth().signOut()}>
-								// 	Sign out!
-								// </button>
-								// <button onClick={() => firebase.auth().signOut()}>
-								// 	Sign out!
-								// </button>
-								// <span>
-								// 	<div>Signed In!</div>
-								// 	<button onClick={() => firebase.auth().signOut()}>
-								// 		Sign out!
-								// 	</button>
-								// 	<h1>Welcome {firebase.auth().currentUser.displayName}</h1>
-								// 	<img
-								// 		alt="profile picture"
-								// 		src={firebase.auth().currentUser.photoURL}
-								// 	/>
-								// </span>
-								//(
-								// 	<span>
-								// 		<div>Signed In!</div>
-								// 		<button onClick={() => firebase.auth().signOut()}>
-								// 			Sign out!
-								// 		</button>
-								// 		<h1>Welcome {firebase.auth().currentUser.displayName}</h1>
-								// 		<img
-								// 			alt="profile picture"
-								// 			src={firebase.auth().currentUser.photoURL}
-								// 		/>
-								// 	</span>
-								// )
 								<div className="login-content">
 									<div className="login-logo">
 										<div className="d-flex  align-items-center">
 											<div>
-												<img src={LoginImg} alt="logo" className="logo-img" />
+												<img src={Logo} alt="SSFS" className="logo-img" />
 											</div>
 											<div className="logo">Smart Solution Facilty Service</div>
 										</div>
@@ -255,12 +225,12 @@ export default class login extends Component {
 												onClick={this.handleLogin}
 											>
 												<img
-													alt="facebook"
+													alt="facebook login icon"
 													className="btn-icon"
 													src={FacebookIcon}
 												/>
 												<img
-													alt="facebookwhite"
+													alt="facebook white login icon"
 													className="btn-icon whiteIcon"
 													src={FacebookIconWhite}
 												/>
@@ -275,12 +245,12 @@ export default class login extends Component {
 												onClick={this.handleGoogleLogin}
 											>
 												<img
-													alt="google"
+													alt="google login btn icon"
 													className="btn-icon"
 													src={GoogleIcon}
 												/>
 												<img
-													alt="googlewhite"
+													alt="google white login btn icon"
 													className="btn-icon whiteIcon"
 													src={GoogleIconWhite}
 												/>

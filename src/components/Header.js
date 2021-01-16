@@ -13,17 +13,6 @@ export default class Header extends Component {
 		isSignedIn: false,
 	};
 
-	uiConfig = {
-		signInFlow: "popup",
-		signInOptions: [
-			firebase.auth.GoogleAuthProvider.PROVIDER_ID,
-			firebase.auth.FacebookAuthProvider.PROVIDER_ID,
-		],
-		callbacks: {
-			signInSuccess: () => false,
-		},
-	};
-
 	componentDidMount() {
 		document.addEventListener("scroll", () => {
 			const isTop = window.scrollY < 200;
@@ -83,9 +72,9 @@ export default class Header extends Component {
 										title={firebase.auth().currentUser.displayName}
 										id="basic-nav-dropdown"
 									>
-										<NavDropdown.Item href="#action/3.1">
+										<NavDropdown.Item href="#">
 											<img
-												alt="profile picture"
+												alt="profile"
 												className="avatar mr-2"
 												src={firebase.auth().currentUser.photoURL}
 											/>
