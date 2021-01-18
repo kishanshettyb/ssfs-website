@@ -7,7 +7,7 @@ export default function RegisterSection(props) {
 		background: props.background,
 	};
 	return (
-		<section className="register-section" style={style}>
+		<section className="register-section bg-light-gray" style={style}>
 			<Container>
 				<Row>
 					<Col className="text-center">

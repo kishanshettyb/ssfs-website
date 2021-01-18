@@ -1,6 +1,10 @@
 .service-section {
   background-color: #f1f1f1;
 
+  h2 {
+    overflow-wrap: break-word;
+  }
+
   p {
     font-family: 'Poppins', sans-serif;
     color: #6c757d;
@@ -14,4 +18,8 @@
     height: auto;
     border-radius: 10px;
   }
+}
+
+.bg-light-gray {
+  background-color: #f1f1f1;
 }

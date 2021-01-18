@@ -33,7 +33,7 @@ const Slider = () => {
 			onSelect={handleSelect}
 		>
 			{data.images.nodes.map((image) => (
-				<Carousel.Item>
+				<Carousel.Item key={image.id}>
 					<div className="image">
 						<Img
 							key={image.id}

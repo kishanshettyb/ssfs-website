@@ -1,0 +1,29 @@
+.star-icon {
+  width: 15px;
+  height: 15px;
+}
+
+.review-card {
+  background-color: $white;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175) !important;
+  padding: 20px;
+  border-radius: 10px;
+
+  p {
+    padding-top: 10px;
+    font-size: 14px;
+  }
+
+  .avatar-big {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+
+  .avatar {
+    width: 25px;
+    height: 25px;
+  }
+
+}
