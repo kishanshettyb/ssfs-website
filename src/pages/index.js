@@ -10,6 +10,7 @@ import ServiceSection from "../components/ServiceSection";
 import Footer from "../components/Footer";
 import ManPowerServiceSection from "../components/ManPowerServiceSection";
 import Reviews from "../components/Reviews";
+import ElectricianSection from "../components/ElectricianSection";
 
 const Theme = () => {
 	return (
@@ -22,6 +23,10 @@ const Theme = () => {
 			<Header />
 			<Slider />
 			<SliderCard />
+			<ElectricianSection
+				title="Electrician Services in Banglore"
+				tagline="Residential Plumbing Professionals Repair"
+			/>
 			<WhyUs />
 			<ManPowerServiceSection
 				title="Manpower Services in Banglore"
@@ -37,7 +42,7 @@ const Theme = () => {
 				title="Register As A Professional in minutes."
 				tagline="Get Your SSFS Acount Today!"
 				btnName="Get Your Account"
-				link="registration"
+				link="/registration/"
 				background="linear-gradient(135deg, #79F1A4 10%, #0E5CAD 100%)"
 			/>
 			<Footer />
