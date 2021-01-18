@@ -11,27 +11,31 @@ import Footer from "../components/Footer";
 const servicelist = [
 	{
 		id: "1",
-		image: "bg-1.jpg",
-		title: "title one",
-		desc: "desc one",
+		image: "img-1.jpg",
+		title: "Plumbing Installation Services",
+		desc:
+			"Our Professional plumbers install all kinds of different fixtures and parts in your commercial plumbing systems.",
 	},
 	{
 		id: "2",
-		image: "bg-2.jpg",
-		title: "title two",
-		desc: "desc two",
+		image: "img-2.jpg",
+		title: "Plumbing Pipe Upgrades Services",
+		desc:
+			"SSFS Plumbing services help upgrade the existing piping system or replace it with a new one. ",
 	},
 	{
 		id: "3",
-		image: "bg-2.jpg",
-		title: "title two",
-		desc: "desc two",
+		image: "img-3.jpg",
+		title: "Drain and Sewer Line Services",
+		desc:
+			"SSFS plumbers have to perform another major job of servicing drains and sewer lines",
 	},
 	{
 		id: "4",
-		image: "bg-2.jpg",
-		title: "title two",
-		desc: "desc two",
+		image: "img-4.jpg",
+		title: "Commercial Water Heater Services",
+		desc:
+			"SSFS plumbing service that a plumber can provide is the service of water heating",
 	},
 ];
 
