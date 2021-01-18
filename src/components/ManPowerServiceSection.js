@@ -3,10 +3,10 @@ import { Col, Container, Row } from "react-bootstrap";
 import { graphql, useStaticQuery } from "gatsby";
 import Img from "gatsby-image";
 
-export default function ServiceSection(props) {
+export default function ManPowerServiceSection(props) {
 	const data = useStaticQuery(graphql`
-		query PlumbingServices {
-			allPlumberJson {
+		query ManpowerServices {
+			allManpowerJson {
 				edges {
 					node {
 						id
@@ -34,8 +34,8 @@ export default function ServiceSection(props) {
 					<p className="mb-5">{props.tagline}</p>
 				</div>
 				<Row>
-					{data.allPlumberJson.edges.map((image) => (
-						<Col md={3} key={image.node.id}>
+					{data.allManpowerJson.edges.map((image) => (
+						<Col md={3} key={image.node.id} className="mb-5">
 							<Img
 								key={image.node.id}
 								fluid={image.node.imageName.childImageSharp.fluid}

@@ -24,12 +24,14 @@ module.exports = {
 		"gatsby-transformer-remark",
 		"gatsby-plugin-mdx",
 		"gatsby-transformer-sharp",
+		"gatsby-transformer-json",
 		{
 			resolve: `gatsby-remark-images-native-lazy-load`,
 			options: {
 				loading: "lazy", // "lazy" | "eager" | "auto"
 			},
 		},
+
 		{
 			resolve: "gatsby-source-filesystem",
 			options: {
@@ -39,6 +41,13 @@ module.exports = {
 			__key: "images",
 		},
 
+		{
+			resolve: "gatsby-source-filesystem",
+			options: {
+				name: "data",
+				path: "./src/data/",
+			},
+		},
 		{
 			resolve: "gatsby-source-filesystem",
 			options: {

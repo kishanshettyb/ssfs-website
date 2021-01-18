@@ -1,0 +1,26 @@
+[
+  {
+		"imageName": "../images/plumbing/img-1.jpg",
+		"title": "Plumbing Installation Services",
+		"desc":
+      "Our Professional plumbers install all kinds of different fixtures and parts in your commercial plumbing systems."
+	},
+	{
+    "imageName": "../images/plumbing/img-2.jpg",
+		"title": "Plumbing Pipe Upgrades Services",
+		"desc":
+			"SSFS Plumbing services help upgrade the existing piping system or replace it with a new one. "
+	},
+	{
+    "imageName": "../images/plumbing/img-3.jpg",
+		"title": "Drain and Sewer Line Services",
+		"desc":
+			"SSFS plumbers have to perform another major job of servicing drains and sewer lines"
+	},
+	{
+    "imageName": "../images/plumbing/img-4.jpg",
+		"title": "Commercial Water Heater Services",
+		"desc":
+			"SSFS plumbing service that a plumber can provide is the service of water heating"
+	}
+]

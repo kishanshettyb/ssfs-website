@@ -1,0 +1,50 @@
+[
+  {
+		"imageName": "../images/plumbing/img-1.jpg",
+		"title": "Security Services",
+		"desc":
+      "Our Professional plumbers install all kinds of different fixtures and parts in your commercial plumbing systems."
+	},
+	{
+    "imageName": "../images/plumbing/img-2.jpg",
+		"title": "Facility Management Services",
+		"desc":
+			"SSFS Plumbing services help upgrade the existing piping system or replace it with a new one. "
+	},
+	{
+    "imageName": "../images/plumbing/img-3.jpg",
+		"title": "Parking Management,",
+		"desc":
+			"SSFS plumbers have to perform another major job of servicing drains and sewer lines"
+	},
+	{
+    "imageName": "../images/plumbing/img-4.jpg",
+		"title": "Retail Management, Hospitality Services",
+		"desc":
+			"SSFS plumbing service that a plumber can provide is the service of water heating"
+  },
+  {
+    "imageName": "../images/plumbing/img-4.jpg",
+		"title": "Hospitality Services",
+		"desc":
+			"SSFS plumbing service that a plumber can provide is the service of water heating"
+  },
+  {
+    "imageName": "../images/plumbing/img-4.jpg",
+		"title": "Manpower Supply - HR",
+		"desc":
+			"SSFS plumbing service that a plumber can provide is the service of water heating"
+  },
+  {
+    "imageName": "../images/plumbing/img-4.jpg",
+		"title": "Security Guards & other Security Services",
+		"desc":
+			"SSFS plumbing service that a plumber can provide is the service of water heating"
+  },
+  {
+    "imageName": "../images/plumbing/img-4.jpg",
+		"title": "Hospitality Services (Catering Housekeeping etc.)",
+		"desc":
+			"SSFS plumbing service that a plumber can provide is the service of water heating"
+	}
+]

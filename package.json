@@ -48,6 +48,7 @@
     "react-dom": "^16.13.1",
     "react-feather": "^2.0.9",
     "react-helmet": "^6.1.0",
-    "react-minimal-side-navigation": "^1.5.1"
+    "react-minimal-side-navigation": "^1.5.1",
+    "react-slick": "^0.27.14"
   }
 }
