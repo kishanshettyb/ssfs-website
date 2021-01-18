@@ -58,7 +58,7 @@ export default function ManPowerServiceSection(props) {
 											key={image.node.id}
 											fluid={image.node.imageName.childImageSharp.fluid}
 											alt="banner-1"
-											className="shadow-sm"
+											className="shadow-sm slick-img-height"
 										/>
 										<h2 className="small-title mt-4 mb-0">
 											{image.node.title}

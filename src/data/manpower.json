@@ -1,50 +1,55 @@
 [
   {
-		"imageName": "../images/plumbing/img-1.jpg",
+		"imageName": "../images/manpower/security.jpg",
 		"title": "Security Services",
 		"desc":
-      "Our Professional plumbers install all kinds of different fixtures and parts in your commercial plumbing systems."
+      "Aliqua et ex dolor tempor sunt ut culpa nostrud sit dolor nisi sint. Est cupidatat"
 	},
 	{
-    "imageName": "../images/plumbing/img-2.jpg",
+    "imageName": "../images/manpower/facility.jpg",
 		"title": "Facility Management Services",
 		"desc":
-			"SSFS Plumbing services help upgrade the existing piping system or replace it with a new one. "
+			"Incididunt duis ex ex dolor nulla esse velit nisi in nostrud. Do id ut laborum "
 	},
 	{
-    "imageName": "../images/plumbing/img-3.jpg",
+    "imageName": "../images/manpower/parking.jpg",
 		"title": "Parking Management,",
 		"desc":
-			"SSFS plumbers have to perform another major job of servicing drains and sewer lines"
+			"Est voluptate exercitation ex dolore velit pariatur incididunt cillum culpa irure."
 	},
 	{
-    "imageName": "../images/plumbing/img-4.jpg",
+    "imageName": "../images/manpower/hospitality.jpg",
 		"title": "Retail Management, Hospitality Services",
 		"desc":
-			"SSFS plumbing service that a plumber can provide is the service of water heating"
+			"Est voluptate exercitation ex dolore velit pariatur incididunt cillum culpa irure."
+			 
   },
   {
-    "imageName": "../images/plumbing/img-4.jpg",
+    "imageName": "../images/manpower/hospitality.jpg",
 		"title": "Hospitality Services",
 		"desc":
-			"SSFS plumbing service that a plumber can provide is the service of water heating"
+			"Est voluptate exercitation ex dolore velit pariatur incididunt cillum culpa irure."
+			 
   },
   {
-    "imageName": "../images/plumbing/img-4.jpg",
+    "imageName": "../images/manpower/hr.jpg",
 		"title": "Manpower Supply - HR",
 		"desc":
-			"SSFS plumbing service that a plumber can provide is the service of water heating"
+			"Est voluptate exercitation ex dolore velit pariatur incididunt cillum culpa irure."
+			 
   },
   {
-    "imageName": "../images/plumbing/img-4.jpg",
+    "imageName": "../images/manpower/security.jpg",
 		"title": "Security Guards & other Security Services",
 		"desc":
-			"SSFS plumbing service that a plumber can provide is the service of water heating"
+			"Est voluptate exercitation ex dolore velit pariatur incididunt cillum culpa irure."
+			 
   },
   {
-    "imageName": "../images/plumbing/img-4.jpg",
+    "imageName": "../images/manpower/catering.jpg",
 		"title": "Hospitality Services (Catering Housekeeping etc.)",
 		"desc":
-			"SSFS plumbing service that a plumber can provide is the service of water heating"
+			"Est voluptate exercitation ex dolore velit pariatur incididunt cillum culpa irure."
+			 
 	}
 ]
