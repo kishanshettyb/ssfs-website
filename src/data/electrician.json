@@ -3,30 +3,30 @@
       "imageName": "../images/electrician/img-1.jpg",
       "title": "Electrical wiring / rewiring",
       "desc":
-        "Our Professional plumbers install all kinds of different fixtures and parts in your commercial plumbing systems."
+        "electrical installation of cabling and associated devices such as switches, distribution boards, sockets, and light fittings in a structure"
     },
     {
       "imageName": "../images/electrician/img-2.jpg",
-      "title": "Installation/Fitting : Fans, Lights, Switch boards, Geyser, Inverter,  etc.",
+      "title": "Installation/Fitting.",
       "desc":
-        "SSFS Plumbing services help upgrade the existing piping system or replace it with a new one. "
+        "Air Conditioner, Refrigerator, Fans, Lights, Switch boards, Geyser, Inverter,  etc."
     },
     {
       "imageName": "../images/electrician/img-3.jpg",
-      "title": "Repair: Switches, Sockets, Power supply line,Electrical meter, etc.",
+      "title": "Repair",
       "desc":
-        "SSFS plumbers have to perform another major job of servicing drains and sewer lines"
+        "Switches, Sockets, Power supply line,Electrical meter etc."
     },
     {
       "imageName": "../images/electrician/img-4.jpg",
       "title": "Electrical motor winding/repair",
       "desc":
-        "SSFS plumbing service that a plumber can provide is the service of water heating"
+        "Ac Motor, Servo, DC servo Motor, Servo Motor."
     },
     {
       "imageName": "../images/electrician/img-5.jpg",
       "title": "Maintenance/Inspection",
       "desc":
-        "SSFS plumbing service that a plumber can provide is the service of water heating"
+        "Meter socket, Service cables, Grounding system, Main electrical panel etc. "
     }
   ]

@@ -13,6 +13,7 @@ export default function registration() {
 				bgclass="bg-image"
 				imagename="bg-1"
 			/>
+
 			<Footer />
 		</div>
 	);
