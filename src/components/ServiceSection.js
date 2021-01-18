@@ -7,7 +7,7 @@ export default function ServiceSection(props) {
 		<Col md={3} className="text-center">
 			<img
 				className="shadow-sm"
-				src={require("../assets/img/" + number.image)}
+				src={require("../images/plumbing/" + number.image)}
 				alt={number.title}
 			/>
 			<h2 className="small-title mt-4 mb-0">{number.title}</h2>
