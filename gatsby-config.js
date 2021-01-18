@@ -4,12 +4,6 @@ module.exports = {
 		siteUrl: "http://smartsolutionfacilityservice.com/",
 	},
 	plugins: [
-		{
-			resolve: `gatsby-source-google-reviews`,
-			options: {
-				placeId: `ChIJaYm8iRu8EmsRAK0yFmh9AQU`,
-			},
-		},
 		"gatsby-plugin-sass",
 		{
 			resolve: "gatsby-plugin-google-analytics",
