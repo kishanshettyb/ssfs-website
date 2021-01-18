@@ -14,7 +14,7 @@ export default function ElectricianSection(props) {
 		slidesToShow: 3,
 		slidesToScroll: 1,
 		autoplay: true,
-		autoplaySpeed: 6000,
+		autoplaySpeed: 4000,
 		infinate: false,
 		pauseOnHover: false,
 		swipe: true,
@@ -42,7 +42,7 @@ export default function ElectricianSection(props) {
 		}
 	`);
 	return (
-		<section className="section-padding service-section bg-white">
+		<section className="section-padding service-section">
 			<Container>
 				<div className="text-center">
 					<h2 className="title text-center  mt-0">{props.title}</h2>
@@ -58,7 +58,7 @@ export default function ElectricianSection(props) {
 											key={image.node.id}
 											fluid={image.node.imageName.childImageSharp.fluid}
 											alt="banner-1"
-											className="shadow-sm"
+											className="shadow-sm slick-img-height"
 										/>
 										<h2 className="small-title mt-4 mb-0">
 											{image.node.title}
