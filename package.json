@@ -39,6 +39,9 @@
     "gatsby-plugin-sitemap": "^2.9.0",
     "gatsby-remark-images-native-lazy-load": "^1.0.0",
     "gatsby-source-filesystem": "^2.8.1",
+    "gatsby-source-google-places": "^0.0.7",
+    "gatsby-source-google-reviews": "^0.0.7",
+    "gatsby-source-google-reviews-graphql": "^1.0.0",
     "gatsby-transformer-json": "^2.9.0",
     "gatsby-transformer-remark": "^2.13.1",
     "gatsby-transformer-sharp": "^2.9.0",
@@ -46,9 +49,11 @@
     "react": "^16.13.1",
     "react-bootstrap": "^1.4.0",
     "react-dom": "^16.13.1",
+    "react-facebook": "^8.1.4",
     "react-feather": "^2.0.9",
     "react-helmet": "^6.1.0",
     "react-minimal-side-navigation": "^1.5.1",
-    "react-slick": "^0.27.14"
+    "react-slick": "^0.27.14",
+    "slick-carousel": "^1.8.1"
   }
 }

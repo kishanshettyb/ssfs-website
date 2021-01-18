@@ -19,6 +19,7 @@ const SmallBanner = (props) => {
 	);
 	// Set ImageData.
 	const imageData = data.desktop.childImageSharp.fluid;
+
 	return (
 		<BackgroundImage className="small-banner" fluid={imageData}>
 			<Container>

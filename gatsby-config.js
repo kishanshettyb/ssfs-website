@@ -4,10 +4,17 @@ module.exports = {
 		siteUrl: "http://smartsolutionfacilityservice.com/",
 	},
 	plugins: [
+		{
+			resolve: `gatsby-source-google-reviews`,
+			options: {
+				placeId: `ChIJaYm8iRu8EmsRAK0yFmh9AQU`,
+			},
+		},
 		"gatsby-plugin-sass",
 		{
 			resolve: "gatsby-plugin-google-analytics",
 			options: {
+				header: true,
 				trackingId: "G-3WPLBM424P",
 			},
 		},
@@ -31,7 +38,6 @@ module.exports = {
 				loading: "lazy", // "lazy" | "eager" | "auto"
 			},
 		},
-
 		{
 			resolve: "gatsby-source-filesystem",
 			options: {
@@ -40,7 +46,6 @@ module.exports = {
 			},
 			__key: "images",
 		},
-
 		{
 			resolve: "gatsby-source-filesystem",
 			options: {

@@ -9,6 +9,7 @@ import RegisterSection from "../components/RegisterSection";
 import ServiceSection from "../components/ServiceSection";
 import Footer from "../components/Footer";
 import ManPowerServiceSection from "../components/ManPowerServiceSection";
+import Reviews from "../components/Reviews";
 
 const Theme = () => {
 	return (
@@ -19,24 +20,25 @@ const Theme = () => {
 				<link rel="canonical" href="http://mysite.com/example" />
 			</Helmet>
 			<Header />
-
 			<Slider />
 			<SliderCard />
 			<WhyUs />
+			<ManPowerServiceSection
+				title="Manpower Services in Banglore"
+				tagline="Residential Plumbing Professionals Repair"
+			/>
 			<ServiceSection
 				title="Plumbing Services in Banglore"
 				tagline="Residential Plumbing Professionals Repair"
 			/>
+			<Reviews />
+
 			<RegisterSection
 				title="Register As A Professional in minutes."
 				tagline="Get Your SSFS Acount Today!"
 				btnName="Get Your Account"
 				link="registration"
 				background="linear-gradient(135deg, #79F1A4 10%, #0E5CAD 100%)"
-			/>
-			<ManPowerServiceSection
-				title="Manpower Services in Banglore"
-				tagline="Residential Plumbing Professionals Repair"
 			/>
 			<Footer />
 		</div>
