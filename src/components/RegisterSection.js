@@ -18,6 +18,9 @@ export default function RegisterSection(props) {
 								{props.btnName}
 							</Button>
 						</Link>
+						<h2 className="small-title text-white mt-5">
+							{props.extraHeading}
+						</h2>
 					</Col>
 				</Row>
 			</Container>

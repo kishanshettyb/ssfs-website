@@ -23,27 +23,6 @@ export default function Reviews() {
 								<img alt="star" className="star-icon" src={star} />
 								<img alt="star" className="star-icon" src={star} />
 								<img alt="star" className="star-icon" src={star} />
-							</div>
-							<p>
-								Smart Solution Facility Service commenced operations in 2012 by
-								providing House Keeping Services to its clients.
-							</p>
-							<img
-								className="google-icon avatar"
-								src={google}
-								alt="Google Review"
-							/>{" "}
-							1 Week ago
-						</div>
-					</Col>
-					<Col md={3}>
-						<div className="review-card text-center">
-							<img className="avatar-big" src={profile} alt="profile" />
-							<h2 className="small-title">User</h2>
-							<div>
-								<img alt="star" className="star-icon" src={star} />
-								<img alt="star" className="star-icon" src={star} />
-								<img alt="star" className="star-icon" src={star} />
 								<img alt="star" className="star-icon" src={star} />
 							</div>
 							<p>
@@ -67,6 +46,7 @@ export default function Reviews() {
 								<img alt="star" className="star-icon" src={star} />
 								<img alt="star" className="star-icon" src={star} />
 								<img alt="star" className="star-icon" src={star} />
+								<img alt="star" className="star-icon" src={star} />
 							</div>
 							<p>
 								Smart Solution Facility Service commenced operations in 2012 by
@@ -85,6 +65,30 @@ export default function Reviews() {
 							<img className="avatar-big" src={profile} alt="profile" />
 							<h2 className="small-title">User</h2>
 							<div>
+								<img alt="star" className="star-icon" src={star} />
+								<img alt="star" className="star-icon" src={star} />
+								<img alt="star" className="star-icon" src={star} />
+								<img alt="star" className="star-icon" src={star} />
+								<img alt="star" className="star-icon" src={star} />
+							</div>
+							<p>
+								Smart Solution Facility Service commenced operations in 2012 by
+								providing House Keeping Services to its clients.
+							</p>
+							<img
+								className="google-icon avatar"
+								src={google}
+								alt="Google Review"
+							/>{" "}
+							1 Week ago
+						</div>
+					</Col>
+					<Col md={3}>
+						<div className="review-card text-center">
+							<img className="avatar-big" src={profile} alt="profile" />
+							<h2 className="small-title">User</h2>
+							<div>
+								<img alt="star" className="star-icon" src={star} />
 								<img alt="star" className="star-icon" src={star} />
 								<img alt="star" className="star-icon" src={star} />
 								<img alt="star" className="star-icon" src={star} />

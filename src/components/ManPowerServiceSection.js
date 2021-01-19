@@ -73,7 +73,7 @@ export default function ManPowerServiceSection(props) {
 		}
 	`);
 	return (
-		<section className="section-padding service-section">
+		<section className="section-padding service-section bg-white">
 			<Container>
 				<div className="text-center">
 					<h2 className="title text-center  mt-0">{props.title}</h2>

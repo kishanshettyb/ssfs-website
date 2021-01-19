@@ -23,13 +23,14 @@ const Theme = () => {
 			<Header />
 			<Slider />
 			<SliderCard />
-			<ElectricianSection
-				title="Electrician Services in Banglore"
-				tagline="Residential Plumbing Professionals Repair"
-			/>
-			<WhyUs />
 			<ManPowerServiceSection
 				title="Manpower Services in Banglore"
+				tagline="Residential Plumbing Professionals Repair"
+			/>
+
+			<WhyUs />
+			<ElectricianSection
+				title="Electrician Services in Banglore"
 				tagline="Residential Plumbing Professionals Repair"
 			/>
 			<ServiceSection
