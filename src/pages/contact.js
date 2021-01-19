@@ -77,7 +77,7 @@ const contact = () => {
 				title="Register As A Professional in minutes."
 				tagline="Get Your SSFS Acount Today!"
 				btnName="Get Your Account"
-				link="registration"
+				link="/registration/"
 				background="linear-gradient(90deg,#ee0979,#ff6a00)"
 			/>
 			<Footer />

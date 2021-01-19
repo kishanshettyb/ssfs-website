@@ -51,6 +51,7 @@
     "react-dom": "^16.13.1",
     "react-facebook": "^8.1.4",
     "react-feather": "^2.0.9",
+    "react-fontawesome": "^1.7.1",
     "react-helmet": "^6.1.0",
     "react-minimal-side-navigation": "^1.5.1",
     "react-slick": "^0.27.14",

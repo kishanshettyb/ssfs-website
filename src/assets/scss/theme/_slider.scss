@@ -9,6 +9,10 @@
   }
 }
 
+.image-light {
+  @extend .image;
+}
+
 .slider-carousel {
 
   .slider-content {
@@ -53,6 +57,21 @@
   transition: all 0.5s;
   -webkit-transition: all 0.5s;
   opacity: 1;
+}
+
+.image-light::after {
+  content: '\A';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.3);
+  // background-image: linear-gradient(135deg, #f977949e 10%, #623aa200 100%);
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  opacity: 1;
+  border-radius: 10px;
 }
 
 .image-black {

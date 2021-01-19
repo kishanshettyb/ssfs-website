@@ -25,13 +25,6 @@
 			 
   },
   {
-    "imageName": "../images/manpower/hospitality.jpg",
-		"title": "Hospitality Services",
-		"desc":
-			"Est voluptate exercitation ex dolore velit pariatur incididunt cillum culpa irure."
-			 
-  },
-  {
     "imageName": "../images/manpower/hr.jpg",
 		"title": "Manpower Supply - HR",
 		"desc":
@@ -51,5 +44,12 @@
 		"desc":
 			"Est voluptate exercitation ex dolore velit pariatur incididunt cillum culpa irure."
 			 
-	}
+  },
+  {
+    "imageName": "../images/manpower/hospitality.jpg",
+		"title": "Hospitality Services",
+		"desc":
+			"Est voluptate exercitation ex dolore velit pariatur incididunt cillum culpa irure."
+			 
+  }
 ]

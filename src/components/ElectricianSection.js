@@ -19,6 +19,37 @@ export default function ElectricianSection(props) {
 		pauseOnHover: false,
 		swipe: true,
 		swipeToSlide: true,
+		responsive: [
+			{
+				breakpoint: 1024,
+				settings: {
+					slidesToShow: 3,
+					slidesToScroll: 3,
+					infinite: true,
+					dots: true,
+					arrows: false,
+				},
+			},
+			{
+				breakpoint: 600,
+				settings: {
+					slidesToShow: 2,
+					slidesToScroll: 2,
+					initialSlide: 2,
+					dots: true,
+					arrows: false,
+				},
+			},
+			{
+				breakpoint: 480,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1,
+					dots: true,
+					arrows: false,
+				},
+			},
+		],
 	};
 	const data = useStaticQuery(graphql`
 		query ElectricianServices {
@@ -58,7 +89,7 @@ export default function ElectricianSection(props) {
 											key={image.node.id}
 											fluid={image.node.imageName.childImageSharp.fluid}
 											alt="banner-1"
-											className="shadow-sm slick-img-height"
+											className="shadow-sm slick-img-height image-light"
 										/>
 										<h2 className="small-title mt-4 mb-0">
 											{image.node.title}
