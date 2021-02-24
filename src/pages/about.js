@@ -2,12 +2,12 @@ import React from "react";
 import Header from "../components/Header";
 import RegisterSection from "../components/RegisterSection";
 import RightImageConent from "../components/RightImageConent";
-import SectionHeader from "../components/SectionHeader";
+// import SectionHeader from "../components/SectionHeader";
 import SmallBanner from "../components/SmallBanner";
 import Footer from "../components/Footer";
 import ClientImgCard from "../components/ClientImgCard";
 import AppSection from "../components/AppSection";
-import Team from "../components/Team";
+// import Team from "../components/Team";
 
 export default function about() {
 	return (
@@ -23,13 +23,13 @@ export default function about() {
         Environmental services, Plumbing Services, Horticulture etc. Smart Solution firmly believes that the
         three main criteria in providing quality services are - Selection, Training, and Supervision."
 			/>
-			<section className="section-padding bg-light">
+			{/* <section className="section-padding bg-light">
 				<SectionHeader
 					title="Our Team"
 					desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 				/>
 				<Team />
-			</section>
+			</section> */}
 			<RegisterSection
 				title="Ready to Talk?"
 				tagline="Our team is here to answer your question about SSFC"

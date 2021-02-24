@@ -20,7 +20,7 @@ const contact = () => {
 				<SectionHeader
 					className="mb-5"
 					title="Drop us message for any query"
-					desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+					// desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 				/>
 				<Container className="pt-5">
 					<Row className="pt-3">

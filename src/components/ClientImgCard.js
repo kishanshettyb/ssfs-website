@@ -22,15 +22,17 @@ export default function ClientImgCard() {
 		<div className="client-area">
 			<Container className="clients-card ">
 				<div className="client-inner shadow-lg">
-					<Row>
+					<Row className="justify-content-md-center">
 						{data.images.nodes.map((images) => (
-							<Col key={images.id} className="m-3" md={2}>
-								<Img
-									key={images.id}
-									fluid={images.childImageSharp.fluid}
-									alt="banner-1"
-									className="client-logos"
-								/>
+							<Col key={images.id} className="col-md-2   my-auto" md={2}>
+								<div className="m-3">
+									<Img
+										key={images.id}
+										fluid={images.childImageSharp.fluid}
+										alt="banner-1"
+										className="client-logos"
+									/>
+								</div>
 							</Col>
 						))}
 					</Row>

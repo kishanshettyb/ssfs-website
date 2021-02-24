@@ -1,27 +1,27 @@
 [
   {
-		"imageName": "../images/manpower/security.jpg",
-		"title": "Security Services",
+		"imageName": "../images/manpower/softservices.jpg",
+		"title": "Soft Services",
 		"desc":
-      "Aliqua et ex dolor tempor sunt ut culpa nostrud sit dolor nisi sint. Est cupidatat"
+      "Housekeeping, Landscaping, Waste Management, EHS, Laundry, Pantry Services, Guest House Management, Warehouse Management"
 	},
 	{
-    "imageName": "../images/manpower/facility.jpg",
-		"title": "Facility Management Services",
+    "imageName": "../images/manpower/pestcontrol.jpg",
+		"title": "Pest Management Service",
 		"desc":
-			"Incididunt duis ex ex dolor nulla esse velit nisi in nostrud. Do id ut laborum "
+			"General Disinfestation, Rodent Control, Fumigation, Anti Larvae Treatment "
 	},
 	{
-    "imageName": "../images/manpower/parking.jpg",
-		"title": "Parking Management,",
+    "imageName": "../images/manpower/cleaning.jpg",
+		"title": "Specialized Cleaning Services",
 		"desc":
-			"Est voluptate exercitation ex dolore velit pariatur incididunt cillum culpa irure."
+			"Solution Based Services, Floor Treatment, Stone Care, Carpet Shampooing, Upholstery Shampooing, Crystallization"
 	},
 	{
     "imageName": "../images/manpower/hospitality.jpg",
-		"title": "Retail Management, Hospitality Services",
+		"title": "Specialized Hospitality Services",
 		"desc":
-			"Est voluptate exercitation ex dolore velit pariatur incididunt cillum culpa irure."
+			"Cleaning Services, Kitchen Hygiene, Kitchen Stewarding, Floor Treatment"
 			 
   },
   {
@@ -33,23 +33,10 @@
   },
   {
     "imageName": "../images/manpower/security.jpg",
-		"title": "Security Guards & other Security Services",
+		"title": "Security & Surveillance Solutions",
 		"desc":
-			"Est voluptate exercitation ex dolore velit pariatur incididunt cillum culpa irure."
-			 
-  },
-  {
-    "imageName": "../images/manpower/catering.jpg",
-		"title": "Hospitality Services (Catering Housekeeping etc.)",
-		"desc":
-			"Est voluptate exercitation ex dolore velit pariatur incididunt cillum culpa irure."
-			 
-  },
-  {
-    "imageName": "../images/manpower/hospitality.jpg",
-		"title": "Hospitality Services",
-		"desc":
-			"Est voluptate exercitation ex dolore velit pariatur incididunt cillum culpa irure."
+			"Man Guarding Services, Electronic Security Solutions, Cash Management and Logistics, Mantech Solutions."
 			 
   }
+  
 ]

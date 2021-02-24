@@ -8,42 +8,56 @@ import plumbing from "../assets/icons/pipeline.svg";
 import electrician from "../assets/icons/electrician.svg";
 import manpower from "../assets/icons/team.svg";
 import tank from "../assets/icons/tank.svg";
+import detergent from "../assets/icons/detergent.svg";
+import beetle from "../assets/icons/beetle.svg";
 
 export default function SliderCard() {
 	return (
 		<Container className="slider-card shadow-lg br-10">
 			<Row>
-				<Col xs={6} md={4} className="services text-center pb-3">
+				<Col xs={6} md={3} className="services text-center pb-3">
 					<div className="service-icon">
 						<img src={housekeeping} alt="Gadening" />
 					</div>
 					<h2 className="small-title text-center pt-2">Housekeeping</h2>
 				</Col>
-				<Col xs={6} md={4} className="services pb-3">
+				<Col xs={6} md={3} className="services text-center pb-3">
+					<div className="service-icon">
+						<img src={detergent} alt="Gadening" />
+					</div>
+					<h2 className="small-title text-center pt-2">Deep Cleaning</h2>
+				</Col>
+				<Col xs={6} md={3} className="services text-center pb-3">
+					<div className="service-icon">
+						<img src={beetle} alt="Gadening" />
+					</div>
+					<h2 className="small-title text-center pt-2">Pest Control</h2>
+				</Col>
+				<Col xs={6} md={3} className="services">
+					<div className="service-icon">
+						<img src={manpower} alt="Manpower" />
+					</div>
+					<h2 className="small-title text-center pt-2">Manpower</h2>
+				</Col>{" "}
+				<Col xs={6} md={3} className="services pb-3">
 					<div className="service-icon">
 						<img src={garden} alt="Gardening" />
 					</div>
 					<h2 className="small-title text-center pt-2">Gardening</h2>
 				</Col>
-				<Col xs={6} md={4} className="services pb-3">
+				<Col xs={6} md={3} className="services pb-3">
 					<div className="service-icon">
 						<img src={plumbing} alt="Plumbing" />
 					</div>
 					<h2 className="small-title text-center pt-2">Plumbing</h2>
 				</Col>
-				<Col xs={6} md={4} className="services">
+				<Col xs={6} md={3} className="services">
 					<div className="service-icon">
 						<img src={electrician} alt="Electricians" />
 					</div>
 					<h2 className="small-title text-center pt-2">Electricians</h2>
 				</Col>
-				<Col xs={6} md={4} className="services">
-					<div className="service-icon">
-						<img src={manpower} alt="Manpower" />
-					</div>
-					<h2 className="small-title text-center pt-2">Manpower</h2>
-				</Col>
-				<Col xs={6} md={4} className="services">
+				<Col xs={6} md={3} className="services">
 					<div className="service-icon">
 						<img src={tank} alt="STP/Sump Tank Cleaning" />
 					</div>
