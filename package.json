@@ -21,6 +21,7 @@
     "@fortawesome/react-fontawesome": "^0.1.14",
     "@mdx-js/mdx": "^1.6.22",
     "@mdx-js/react": "^1.6.22",
+    "@pasdo501/gatsby-source-woocommerce": "^0.14.3",
     "bootstrap": "^4.5.3",
     "feather-icons": "^4.28.0",
     "firebase": "^8.2.3",

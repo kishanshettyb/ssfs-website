@@ -15,8 +15,13 @@ const AddressIcons = () => {
 						<div>
 							<h2>Address</h2>
 							<p>
-								376, 1st Main, 9th Cross Kasturiba Colony, Girinagar, Bangalore
-								- 560085.
+								#79, 8th Cross, Sapthagiri Layout, BSK 3rd Stage, Near Tata
+								Promoter Appt, Banglore - 85
+							</p>
+							<hr className="mt-1 mb-1" />
+							<p>
+								<b>Branch: </b> T1A, 5th Cross, 1st Stage, Peenya, Banglore -
+								560023
 							</p>
 						</div>
 					</div>

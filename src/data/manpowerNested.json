@@ -1,0 +1,28 @@
+[
+  {
+		"imageName": "../images/manpower/security.jpg",
+		"title": "Soft Services",
+		"desc":
+      [{
+        "id":"1",
+        "service":"Housekeeping"
+      },
+      {
+        "id":"2",
+        "service":"Landscaping"
+      }]
+	},
+  {
+		"imageName": "../images/manpower/security.jpg",
+		"title": "Pest Management Services",
+		"desc":
+      [{
+        "id":"1",
+        "service":"General Disinfection"
+      },
+      {
+        "id":"2",
+        "service":"Rodent Control"
+      }]
+	}
+]

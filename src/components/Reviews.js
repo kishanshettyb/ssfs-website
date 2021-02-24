@@ -10,11 +10,34 @@ export default function Reviews() {
 		<section className="section-padding bg-light-gray">
 			<Container>
 				<SectionHeader
-					title="Google Reviews"
+					title="Testimonial"
 					desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididu"
 				/>
 				<Row className="mt-5">
-					<Col md={3}>
+					<Col sm={6} lg={3} xl={3} md={4}>
+						<div className="review-card text-center">
+							<img className="avatar-big" src={profile} alt="profile" />
+							<h2 className="small-title">User</h2>
+							<div>
+								<img alt="star" className="star-icon" src={star} />
+								<img alt="star" className="star-icon" src={star} />
+								<img alt="star" className="star-icon" src={star} />
+								<img alt="star" className="star-icon" src={star} />
+								<img alt="star" className="star-icon" src={star} />
+							</div>
+							<p>
+								During the Lockdown period, you have given great support in the
+								best possible way. Thanks for your efforts. Appreciate it!
+							</p>
+							<img
+								className="google-icon avatar"
+								src={google}
+								alt="Google Review"
+							/>{" "}
+							1 Week ago
+						</div>
+					</Col>
+					<Col sm={6} lg={3} xl={3} md={4}>
 						<div className="review-card text-center">
 							<img className="avatar-big" src={profile} alt="profile" />
 							<h2 className="small-title">User</h2>
@@ -37,7 +60,7 @@ export default function Reviews() {
 							1 Week ago
 						</div>
 					</Col>
-					<Col md={3}>
+					<Col sm={6} lg={3} xl={3} md={4}>
 						<div className="review-card text-center">
 							<img className="avatar-big" src={profile} alt="profile" />
 							<h2 className="small-title">User</h2>
@@ -60,30 +83,7 @@ export default function Reviews() {
 							1 Week ago
 						</div>
 					</Col>
-					<Col md={3}>
-						<div className="review-card text-center">
-							<img className="avatar-big" src={profile} alt="profile" />
-							<h2 className="small-title">User</h2>
-							<div>
-								<img alt="star" className="star-icon" src={star} />
-								<img alt="star" className="star-icon" src={star} />
-								<img alt="star" className="star-icon" src={star} />
-								<img alt="star" className="star-icon" src={star} />
-								<img alt="star" className="star-icon" src={star} />
-							</div>
-							<p>
-								Smart Solution Facility Service commenced operations in 2012 by
-								providing House Keeping Services to its clients.
-							</p>
-							<img
-								className="google-icon avatar"
-								src={google}
-								alt="Google Review"
-							/>{" "}
-							1 Week ago
-						</div>
-					</Col>
-					<Col md={3}>
+					<Col sm={6} lg={3} xl={3} md={4}>
 						<div className="review-card text-center">
 							<img className="avatar-big" src={profile} alt="profile" />
 							<h2 className="small-title">User</h2>

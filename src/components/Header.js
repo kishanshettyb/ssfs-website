@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Navbar, Nav, NavDropdown, Container } from "react-bootstrap";
-import { LogIn } from "react-feather";
+import { Navbar, Nav, Container } from "react-bootstrap";
+// import { LogIn } from "react-feather";
 import SideBar from "../components/SideBar";
 import { Link } from "gatsby";
 import Logo from "../assets/img/logo.png";
@@ -36,7 +36,7 @@ export default class Header extends Component {
 					<Container>
 						<Navbar.Brand href="/">
 							<img className="logo-img" alt="Logo" src={Logo} />
-							Smart Solution Facilty Service
+							SSFS
 						</Navbar.Brand>
 						<Navbar.Toggle aria-controls="basic-navbar-nav" />
 						<Navbar.Collapse id="basic-navbar-nav">
@@ -45,9 +45,12 @@ export default class Header extends Component {
 									Home
 								</Nav.Link>
 								<Nav.Link as={Link} to="/about/">
-									About
+									About Us
 								</Nav.Link>
-								<NavDropdown title="Services" id="basic-nav-dropdown">
+								<Nav.Link as={Link} to="/services/">
+									Services
+								</Nav.Link>
+								{/* <NavDropdown title="Services" id="basic-nav-dropdown">
 									<NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
 									<NavDropdown.Item href="#action/3.2">
 										Another action
@@ -59,13 +62,16 @@ export default class Header extends Component {
 									<NavDropdown.Item href="#action/3.4">
 										Separated link
 									</NavDropdown.Item>
-								</NavDropdown>
+								</NavDropdown> */}
+								<Nav.Link as={Link} to="/clients/">
+									Clients
+								</Nav.Link>
 								<Nav.Link as={Link} to="/contact/">
-									Contact
+									Contact Us
 								</Nav.Link>
-								<Nav.Link target="_bank" href="https://google.co.in">
+								{/* <Nav.Link target="_bank" href="https://google.co.in">
 									Blog
-								</Nav.Link>
+								</Nav.Link> */}
 								{/* {this.state.isSignedIn ? (
 									<NavDropdown
 										title={firebase.auth().currentUser.displayName}
@@ -98,10 +104,10 @@ export default class Header extends Component {
 										Log In
 									</Nav.Link>
 								)} */}
-								<Nav.Link as={Link} to="/login/">
+								{/* <Nav.Link as={Link} to="/login/">
 									<LogIn className="login-icon" />
 									Log In
-								</Nav.Link>
+								</Nav.Link> */}
 							</Nav>
 						</Navbar.Collapse>
 					</Container>
